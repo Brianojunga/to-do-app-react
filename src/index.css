@@ -1,1 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 @import "tailwindcss";
+
+/* eslint-disable arrow-body-style */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+}
+
+body {
+  font-family: "Josefin Sans", Arial;
+  font-size: 18px;
+}
