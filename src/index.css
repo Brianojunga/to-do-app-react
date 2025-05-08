@@ -5,6 +5,11 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
+  --color-gradient-200: linear-gradient(
+    to_right,
+    _hsl(192, _100%, _67%),
+    _hsl(280, _87%, _65%)
+  );
 }
 
 body {
