@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AppContext } from "./Context/context";
+import { AppContext } from "./Context/AppContext";
 
 function Form() {
   const { todos, value, setValue, setTodos, checked, setChecked } =
