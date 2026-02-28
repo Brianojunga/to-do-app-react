@@ -82,7 +82,7 @@ resource "aws_cloudfront_distribution" "frontend_distribution" {
 }
 
 output "cloudfront_domain_name" {
-    value = aws_cloudfront_distribution.frontend_distribution.domain_name
+    value = "${aws_cloudfront_distribution.frontend_distribution.domain_name}/index.html"
 }
 
 output "s3_bucket_name" {
