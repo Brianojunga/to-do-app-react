@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "terraform/main.tf"
+  workflow_dispatch:
 
 jobs:
   provision:
